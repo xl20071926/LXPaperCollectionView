@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
+static const CGFloat kEdgeInsetSize = 30.f;
+
 @interface LXPaperCollectionLayout : UICollectionViewFlowLayout
+
+- (instancetype)initWithItemSize:(CGSize)size;
 
 @end
